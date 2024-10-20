@@ -4,6 +4,7 @@
       body {
         background-image: url("background.jpg");
         background-repeat: no-repeat;
+        background-size: 150px;
 
         font-family: Monospace;
         font-weight: bold;
@@ -12,9 +13,23 @@
 
         text-shadow: 2px 2px 4px black;
       }
+
+      .graphics-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        max-width: 80vw;
+
+        margin: 0 auto;
+      }
     </style>
   </head>
   <body>
-    todo
+    <div class="graphics-grid">
+      <div>todo</div>
+      <div>todo</div>
+      <div>todo</div>
+      <div>todo</div>
+    </div>
   </body>
 </html>
